@@ -10,7 +10,7 @@ The protocol defines the following 5 optional methods:
     - (void)setupNetworking;
     - (void)setupRootController;
     
-You can implement any of the above methods or all of them. They are invoked in the same order as they are listed. This seems logical, as:
+You can implement any of the above methods or all of them. They are invoked in the same order as they are listed. This seems logical, as:  
 1. You would first load the standard defaults and set them up for probable future methods to work with.  
 2. You would setup appearances on common views such as `UINavigationBar`, `UIButton` and so on.  
 3. You would setup routing if your app can be invoked using URL schemes.  
