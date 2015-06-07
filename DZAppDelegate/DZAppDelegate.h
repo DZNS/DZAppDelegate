@@ -25,5 +25,18 @@
 
 @property (nonatomic, strong) UIWindow *window;
 
+/**
+ *  Change the rootViewController on the window using an animation.
+ *
+ *  @param viewController the new rootViewController
+ *  @param transition     UIViewAnimationOptions to use during the transition. Pass a transition animation in here.
+ *  @param duration       the duration for the transition animation.
+ *  @param completion     the completion block to be invoked when the transition finishes.
+ */
+- (void)setRootViewController:(UIViewController *)viewController
+               withTransition:(UIViewAnimationOptions)transition
+                     duration:(NSTimeInterval)duration
+                   completion:(void (^)(BOOL finished))completion;
+
 @end
 

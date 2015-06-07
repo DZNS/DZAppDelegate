@@ -38,6 +38,30 @@
     return YES;
 }
 
+#pragma mark - Instance Methods
+
+- (void)setRootViewController:(UIViewController *)viewController
+               withTransition:(UIViewAnimationOptions)transition
+                     duration:(NSTimeInterval)duration
+                   completion:(void (^)(BOOL finished))completion
+{
+    
+    UIViewController *oldViewController = self.window.rootViewController;
+    
+    [UIView transitionFromView:oldViewController.view toView:viewController.view duration:duration options:(UIViewAnimationOptions)(transition|UIViewAnimationOptionAllowAnimatedContent|UIViewAnimationOptionLayoutSubviews) completion:^(BOOL finished) {
+        
+        self.window.rootViewController = viewController;
+        
+        if (completion)
+        {
+            completion(finished);
+        }
+        
+    }];
+    
+}
+
+
 #pragma mark - Helpers
 
 - (void)callDelegate:(SEL)aSelector
