@@ -2,6 +2,7 @@
 
 Purpose: DZAppDelegate abstracts some of the commonly used tasks into a Subclass-protocol style implementation thereby making it easier and faster to get started on new projects.
 
+### Setting up
 The protocol defines the following 5 optional methods:
 
     - (NSDictionary *)appDefaults;
@@ -20,4 +21,12 @@ You can implement any of the above methods or all of them. They are invoked in t
     - If you're initializing View Controllers programatically, you'll also have to create the window as shown in the example.  
 6. At the end of this process, if the window object exists and is not the key window, it's made so.  
 
+### Changing rootViewController
+If you wish you change the rootViewController on your keyWindow using a animation, you can use the following method  
+
+    - (void)setRootViewController:(UIViewController *)viewController
+                   withTransition:(UIViewAnimationOptions)transition
+                         duration:(NSTimeInterval)duration
+                       completion:(void (^)(BOOL finished))completion
+  
 Feel free to suggest newer commonly used methods, or fork and send a pull request.  
