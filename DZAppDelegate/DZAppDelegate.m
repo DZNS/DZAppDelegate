@@ -61,6 +61,49 @@
     
 }
 
+- (void)setRootViewController:(UIViewController *)viewController
+                withAnimation:(DZAppRootAnimation)animation
+                     duration:(NSTimeInterval)duration
+                   completion:(void (^)(BOOL finished))completion
+{
+    
+    // currently only cross-fades
+    
+    UIView *snapshot = [self.window.rootViewController.view snapshotViewAfterScreenUpdates:NO];
+    
+    [viewController.view addSubview:snapshot];
+    
+    self.window.rootViewController = viewController;
+    
+    [UIView animateWithDuration:duration animations:^{
+        
+        switch (animation)
+        {
+            case DZAppAnimationFocusOut:
+                snapshot.transform = CGAffineTransformMakeScale(1.25f, 1.25f);
+                break;
+            case DZAppAnimationFocusIn:
+                snapshot.transform = CGAffineTransformMakeScale(0.925f, 0.925f);
+                break;
+            default:
+                break;
+                
+        }
+        
+        snapshot.alpha = 0.f;
+        
+    } completion:^(BOOL finished) {
+        
+        [snapshot removeFromSuperview];
+        
+        if(completion)
+        {
+            completion(finished);
+        }
+        
+    }];
+    
+}
 
 #pragma mark - Helpers
 

@@ -21,12 +21,18 @@
 
 @end
 
+typedef NS_ENUM(NSInteger, DZAppRootAnimation) {
+    DZAppAnimationFade,
+    DZAppAnimationFocusOut, //the old viewController's view scales up in size and fades out.
+    DZAppAnimationFocusIn //the old viewController's view scales down in size and fades out.
+};
+
 @interface DZAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 
 /**
- *  Change the rootViewController on the window using an animation.
+ *  Change the rootViewController on the window using an UIKit animation.
  *
  *  @param viewController the new rootViewController
  *  @param transition     UIViewAnimationOptions to use during the transition. Pass a transition animation in here.
@@ -35,6 +41,20 @@
  */
 - (void)setRootViewController:(UIViewController *)viewController
                withTransition:(UIViewAnimationOptions)transition
+                     duration:(NSTimeInterval)duration
+                   completion:(void (^)(BOOL finished))completion;
+
+
+/**
+ *  Change the rootViewController on the window using a custom animation.
+ *
+ *  @param viewController the new rootViewController
+ *  @param animation      A DZAppRootAnimation type. Default is fade-out.
+ *  @param duration       the duration for the transition animation.
+ *  @param completion     the completion block to be invoked when the transition finishes.
+ */
+- (void)setRootViewController:(UIViewController *)viewController
+                withAnimation:(DZAppRootAnimation)animation
                      duration:(NSTimeInterval)duration
                    completion:(void (^)(BOOL finished))completion;
 
