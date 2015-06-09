@@ -67,8 +67,6 @@
                    completion:(void (^)(BOOL finished))completion
 {
     
-    // currently only cross-fades
-    
     UIView *snapshot = [self.window.rootViewController.view snapshotViewAfterScreenUpdates:NO];
     
     [viewController.view addSubview:snapshot];
