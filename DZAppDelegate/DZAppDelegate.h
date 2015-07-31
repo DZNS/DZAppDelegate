@@ -1,12 +1,16 @@
 //
 //  DZAppDelegate.h
 //  DZAppDelegate
+//  DZAppdelegate.h
+//  DZAppdelegate
 //
 //  Created by Nikhil Nigade on 5/27/15.
+//  Created by Nikhil Nigade on 7/31/15.
 //  Copyright (c) 2015 Dezine Zync Studios LLP. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @protocol DZAppDelegateProtocol <NSObject>
 
@@ -59,4 +63,3 @@ typedef NS_ENUM(NSInteger, DZAppRootAnimation) {
                    completion:(void (^)(BOOL finished))completion;
 
 @end
-

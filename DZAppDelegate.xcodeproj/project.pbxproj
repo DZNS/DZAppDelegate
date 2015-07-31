@@ -8,15 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F052C0641B15DAF1009BE16C /* DZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F052C0631B15DAF1009BE16C /* DZAppDelegate.m */; };
+		F0634FA91B6B4C950025C347 /* DZAppdelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0634F9E1B6B4C950025C347 /* DZAppdelegate.framework */; };
+		F0634FB01B6B4C950025C347 /* DZAppdelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0634FAF1B6B4C950025C347 /* DZAppdelegateTests.m */; };
+		F0634FB71B6B4CEA0025C347 /* DZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F052C0631B15DAF1009BE16C /* DZAppDelegate.m */; };
+		F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F052C0621B15DAF1009BE16C /* DZAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CF14151B27114800BBAB10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
 		F0F9494E1B15A06400014A4B /* DZAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9494D1B15A06400014A4B /* DZAppDelegateTests.m */; };
 		F0F949671B15A0BA00014A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
 		F0F949681B15A0BA00014A4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9495E1B15A0BA00014A4B /* LaunchScreen.xib */; };
 		F0F9496A1B15A0BA00014A4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F949621B15A0BA00014A4B /* Images.xcassets */; };
-		F0F9496B1B15A0BA00014A4B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0F949631B15A0BA00014A4B /* Info.plist */; };
 		F0F9496C1B15A0BA00014A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F949641B15A0BA00014A4B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F0634FAA1B6B4C950025C347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F949261B15A06300014A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0634F9D1B6B4C950025C347;
+			remoteInfo = DZAppdelegate;
+		};
 		F0F949481B15A06400014A4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0F949261B15A06300014A4B /* Project object */;
@@ -29,6 +40,14 @@
 /* Begin PBXFileReference section */
 		F052C0621B15DAF1009BE16C /* DZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZAppDelegate.h; sourceTree = "<group>"; };
 		F052C0631B15DAF1009BE16C /* DZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZAppDelegate.m; sourceTree = "<group>"; };
+		F0634F9E1B6B4C950025C347 /* DZAppdelegate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZAppdelegate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0634FA11B6B4C950025C347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0634FA81B6B4C950025C347 /* DZAppdelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZAppdelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0634FAE1B6B4C950025C347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0634FAF1B6B4C950025C347 /* DZAppdelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZAppdelegateTests.m; sourceTree = "<group>"; };
+		F0634FB91B6B4D800025C347 /* DZA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DZA.h; path = DZAppDelegate/DZA.h; sourceTree = SOURCE_ROOT; };
+		F0CF145E1B27125900BBAB10 /* DZAppDelegate_UI_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZAppDelegate_UI_Tests.m; sourceTree = "<group>"; };
+		F0CF14601B27125900BBAB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F9492E1B15A06400014A4B /* DZAppDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZAppDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F949471B15A06400014A4B /* DZAppDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZAppDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F9494C1B15A06400014A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +61,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F0634F9A1B6B4C950025C347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0634FA51B6B4C950025C347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0634FA91B6B4C950025C347 /* DZAppdelegate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0F9492B1B15A06300014A4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +100,51 @@
 				F052C0631B15DAF1009BE16C /* DZAppDelegate.m */,
 			);
 			name = DZAppDelegate;
+			path = ../DZAppDelegate;
+			sourceTree = "<group>";
+		};
+		F0634F9F1B6B4C950025C347 /* DZAppdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0634FB91B6B4D800025C347 /* DZA.h */,
+				F052C0611B15DAF1009BE16C /* DZAppDelegate */,
+				F0634FA01B6B4C950025C347 /* Supporting Files */,
+			);
+			path = DZAppdelegate;
+			sourceTree = "<group>";
+		};
+		F0634FA01B6B4C950025C347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0634FA11B6B4C950025C347 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0634FAC1B6B4C950025C347 /* DZAppdelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0634FAF1B6B4C950025C347 /* DZAppdelegateTests.m */,
+				F0634FAD1B6B4C950025C347 /* Supporting Files */,
+			);
+			path = DZAppdelegateTests;
+			sourceTree = "<group>";
+		};
+		F0634FAD1B6B4C950025C347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0634FAE1B6B4C950025C347 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0CF145D1B27125900BBAB10 /* DZAppDelegate UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CF145E1B27125900BBAB10 /* DZAppDelegate_UI_Tests.m */,
+				F0CF14601B27125900BBAB10 /* Info.plist */,
+			);
+			path = "DZAppDelegate UI Tests";
 			sourceTree = "<group>";
 		};
 		F0F949251B15A06300014A4B = {
@@ -73,6 +152,9 @@
 			children = (
 				F0F949301B15A06400014A4B /* Example */,
 				F0F9494A1B15A06400014A4B /* DZAppDelegateTests */,
+				F0CF145D1B27125900BBAB10 /* DZAppDelegate UI Tests */,
+				F0634F9F1B6B4C950025C347 /* DZAppdelegate */,
+				F0634FAC1B6B4C950025C347 /* DZAppdelegateTests */,
 				F0F9492F1B15A06400014A4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +164,8 @@
 			children = (
 				F0F9492E1B15A06400014A4B /* DZAppDelegate.app */,
 				F0F949471B15A06400014A4B /* DZAppDelegateTests.xctest */,
+				F0634F9E1B6B4C950025C347 /* DZAppdelegate.framework */,
+				F0634FA81B6B4C950025C347 /* DZAppdelegateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,7 +173,6 @@
 		F0F949301B15A06400014A4B /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				F052C0611B15DAF1009BE16C /* DZAppDelegate */,
 				F0F9495B1B15A0BA00014A4B /* AppDelegate.h */,
 				F0F9495C1B15A0BA00014A4B /* AppDelegate.m */,
 				F0F9495D1B15A0BA00014A4B /* Base.lproj */,
@@ -129,7 +212,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F0634F9B1B6B4C950025C347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F0634F9D1B6B4C950025C347 /* DZAppdelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0634FB51B6B4C950025C347 /* Build configuration list for PBXNativeTarget "DZAppdelegate" */;
+			buildPhases = (
+				F0634F991B6B4C950025C347 /* Sources */,
+				F0634F9A1B6B4C950025C347 /* Frameworks */,
+				F0634F9B1B6B4C950025C347 /* Headers */,
+				F0634F9C1B6B4C950025C347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZAppdelegate;
+			productName = DZAppdelegate;
+			productReference = F0634F9E1B6B4C950025C347 /* DZAppdelegate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0634FA71B6B4C950025C347 /* DZAppdelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0634FB61B6B4C950025C347 /* Build configuration list for PBXNativeTarget "DZAppdelegateTests" */;
+			buildPhases = (
+				F0634FA41B6B4C950025C347 /* Sources */,
+				F0634FA51B6B4C950025C347 /* Frameworks */,
+				F0634FA61B6B4C950025C347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0634FAB1B6B4C950025C347 /* PBXTargetDependency */,
+			);
+			name = DZAppdelegateTests;
+			productName = DZAppdelegateTests;
+			productReference = F0634FA81B6B4C950025C347 /* DZAppdelegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F0F9492D1B15A06300014A4B /* DZAppDelegate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0F949511B15A06400014A4B /* Build configuration list for PBXNativeTarget "DZAppDelegate" */;
@@ -171,9 +301,15 @@
 		F0F949261B15A06300014A4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Dezine Zync Studios LLP.";
 				TargetAttributes = {
+					F0634F9D1B6B4C950025C347 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F0634FA71B6B4C950025C347 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					F0F9492D1B15A06300014A4B = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -198,16 +334,31 @@
 			targets = (
 				F0F9492D1B15A06300014A4B /* DZAppDelegate */,
 				F0F949461B15A06400014A4B /* DZAppDelegateTests */,
+				F0634F9D1B6B4C950025C347 /* DZAppdelegate */,
+				F0634FA71B6B4C950025C347 /* DZAppdelegateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F0634F9C1B6B4C950025C347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0634FA61B6B4C950025C347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0F9492C1B15A06300014A4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F9496B1B15A0BA00014A4B /* Info.plist in Resources */,
 				F0F9496A1B15A0BA00014A4B /* Images.xcassets in Resources */,
 				F0F949681B15A0BA00014A4B /* LaunchScreen.xib in Resources */,
 			);
@@ -223,6 +374,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F0634F991B6B4C950025C347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0634FB71B6B4CEA0025C347 /* DZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0634FA41B6B4C950025C347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0634FB01B6B4C950025C347 /* DZAppdelegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F0F9492A1B15A06300014A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,12 +405,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F9494E1B15A06400014A4B /* DZAppDelegateTests.m in Sources */,
+				F0CF14151B27114800BBAB10 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F0634FAB1B6B4C950025C347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0634F9D1B6B4C950025C347 /* DZAppdelegate */;
+			targetProxy = F0634FAA1B6B4C950025C347 /* PBXContainerItemProxy */;
+		};
 		F0F949491B15A06400014A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0F9492D1B15A06300014A4B /* DZAppDelegate */;
@@ -263,6 +436,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F0634FB11B6B4C950025C347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DZAppdelegate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0634FB21B6B4C950025C347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DZAppdelegate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0634FB31B6B4C950025C347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DZAppdelegateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0634FB41B6B4C950025C347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DZAppdelegateTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F0F9494F1B15A06400014A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +649,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F0634FB51B6B4C950025C347 /* Build configuration list for PBXNativeTarget "DZAppdelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0634FB11B6B4C950025C347 /* Debug */,
+				F0634FB21B6B4C950025C347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0634FB61B6B4C950025C347 /* Build configuration list for PBXNativeTarget "DZAppdelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0634FB31B6B4C950025C347 /* Debug */,
+				F0634FB41B6B4C950025C347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F0F949291B15A06300014A4B /* Build configuration list for PBXProject "DZAppDelegate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,19 +1,19 @@
 //
-//  DZAppDelegateTests.m
-//  DZAppDelegateTests
+//  DZAppdelegateTests.m
+//  DZAppdelegateTests
 //
-//  Created by Nikhil Nigade on 5/27/15.
+//  Created by Nikhil Nigade on 7/31/15.
 //  Copyright (c) 2015 Dezine Zync Studios LLP. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface DZAppDelegateTests : XCTestCase
+@interface DZAppdelegateTests : XCTestCase
 
 @end
 
-@implementation DZAppDelegateTests
+@implementation DZAppdelegateTests
 
 - (void)setUp {
     [super setUp];

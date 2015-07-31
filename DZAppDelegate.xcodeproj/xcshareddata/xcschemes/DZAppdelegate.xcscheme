@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0F9492D1B15A06300014A4B"
-               BuildableName = "DZAppDelegate.app"
-               BlueprintName = "DZAppDelegate"
+               BlueprintIdentifier = "F0634F9D1B6B4C950025C347"
+               BuildableName = "DZAppdelegate.framework"
+               BlueprintName = "DZAppdelegate"
                ReferencedContainer = "container:DZAppDelegate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0F949461B15A06400014A4B"
-               BuildableName = "DZAppDelegateTests.xctest"
-               BlueprintName = "DZAppDelegateTests"
+               BlueprintIdentifier = "F0634FA71B6B4C950025C347"
+               BuildableName = "DZAppdelegateTests.xctest"
+               BlueprintName = "DZAppdelegateTests"
                ReferencedContainer = "container:DZAppDelegate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0F949461B15A06400014A4B"
-               BuildableName = "DZAppDelegateTests.xctest"
-               BlueprintName = "DZAppDelegateTests"
+               BlueprintIdentifier = "F0634FA71B6B4C950025C347"
+               BuildableName = "DZAppdelegateTests.xctest"
+               BlueprintName = "DZAppdelegateTests"
                ReferencedContainer = "container:DZAppDelegate.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0F9492D1B15A06300014A4B"
-            BuildableName = "DZAppDelegate.app"
-            BlueprintName = "DZAppDelegate"
+            BlueprintIdentifier = "F0634F9D1B6B4C950025C347"
+            BuildableName = "DZAppdelegate.framework"
+            BlueprintName = "DZAppdelegate"
             ReferencedContainer = "container:DZAppDelegate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0F9492D1B15A06300014A4B"
-            BuildableName = "DZAppDelegate.app"
-            BlueprintName = "DZAppDelegate"
+            BlueprintIdentifier = "F0634F9D1B6B4C950025C347"
+            BuildableName = "DZAppdelegate.framework"
+            BlueprintName = "DZAppdelegate"
             ReferencedContainer = "container:DZAppDelegate.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F0F9492D1B15A06300014A4B"
-            BuildableName = "DZAppDelegate.app"
-            BlueprintName = "DZAppDelegate"
+            BlueprintIdentifier = "F0634F9D1B6B4C950025C347"
+            BuildableName = "DZAppdelegate.framework"
+            BlueprintName = "DZAppdelegate"
             ReferencedContainer = "container:DZAppDelegate.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
