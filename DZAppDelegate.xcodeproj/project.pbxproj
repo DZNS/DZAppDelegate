@@ -12,6 +12,7 @@
 		F0634FB01B6B4C950025C347 /* DZAppdelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0634FAF1B6B4C950025C347 /* DZAppdelegateTests.m */; };
 		F0634FB71B6B4CEA0025C347 /* DZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F052C0631B15DAF1009BE16C /* DZAppDelegate.m */; };
 		F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F052C0621B15DAF1009BE16C /* DZAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0634FBA1B6B4E2D0025C347 /* DZA.h in Headers */ = {isa = PBXBuildFile; fileRef = F0634FB91B6B4D800025C347 /* DZA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0CF14151B27114800BBAB10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
 		F0F9494E1B15A06400014A4B /* DZAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9494D1B15A06400014A4B /* DZAppDelegateTests.m */; };
 		F0F949671B15A0BA00014A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
@@ -217,6 +218,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0634FBA1B6B4E2D0025C347 /* DZA.h in Headers */,
 				F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,6 +658,7 @@
 				F0634FB21B6B4C950025C347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0634FB61B6B4C950025C347 /* Build configuration list for PBXNativeTarget "DZAppdelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -664,6 +667,7 @@
 				F0634FB41B6B4C950025C347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F949291B15A06300014A4B /* Build configuration list for PBXProject "DZAppDelegate" */ = {
 			isa = XCConfigurationList;
