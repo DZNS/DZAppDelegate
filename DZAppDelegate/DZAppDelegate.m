@@ -10,9 +10,8 @@
 
 @implementation DZAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     if([self respondsToSelector:@selector(appDefaults)])
     {
         
@@ -29,6 +28,12 @@
     [self callDelegate:@selector(setupRouting)];
     [self callDelegate:@selector(setupNetworking)];
     [self callDelegate:@selector(setupRootController)];
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     
     if(self.window && ![self.window isKeyWindow])
     {
