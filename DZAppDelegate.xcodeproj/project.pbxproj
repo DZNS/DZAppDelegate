@@ -14,6 +14,8 @@
 		F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F052C0621B15DAF1009BE16C /* DZAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0634FBA1B6B4E2D0025C347 /* DZA.h in Headers */ = {isa = PBXBuildFile; fileRef = F0634FB91B6B4D800025C347 /* DZA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0CF14151B27114800BBAB10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
+		F0F239622383C46E006C929E /* UIApplication+KeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F239602383C46E006C929E /* UIApplication+KeyWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F239632383C46E006C929E /* UIApplication+KeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F239612383C46E006C929E /* UIApplication+KeyWindow.m */; };
 		F0F9494E1B15A06400014A4B /* DZAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9494D1B15A06400014A4B /* DZAppDelegateTests.m */; };
 		F0F949671B15A0BA00014A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9495C1B15A0BA00014A4B /* AppDelegate.m */; };
 		F0F949681B15A0BA00014A4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0F9495E1B15A0BA00014A4B /* LaunchScreen.xib */; };
@@ -49,6 +51,8 @@
 		F0634FB91B6B4D800025C347 /* DZA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DZA.h; path = DZAppDelegate/DZA.h; sourceTree = SOURCE_ROOT; };
 		F0CF145E1B27125900BBAB10 /* DZAppDelegate_UI_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZAppDelegate_UI_Tests.m; sourceTree = "<group>"; };
 		F0CF14601B27125900BBAB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F239602383C46E006C929E /* UIApplication+KeyWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+KeyWindow.h"; sourceTree = "<group>"; };
+		F0F239612383C46E006C929E /* UIApplication+KeyWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+KeyWindow.m"; sourceTree = "<group>"; };
 		F0F9492E1B15A06400014A4B /* DZAppDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZAppDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F949471B15A06400014A4B /* DZAppDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZAppDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F9494C1B15A06400014A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				F052C0621B15DAF1009BE16C /* DZAppDelegate.h */,
 				F052C0631B15DAF1009BE16C /* DZAppDelegate.m */,
+				F0F239602383C46E006C929E /* UIApplication+KeyWindow.h */,
+				F0F239612383C46E006C929E /* UIApplication+KeyWindow.m */,
 			);
 			name = DZAppDelegate;
 			path = ../DZAppDelegate;
@@ -219,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0634FBA1B6B4E2D0025C347 /* DZA.h in Headers */,
+				F0F239622383C46E006C929E /* UIApplication+KeyWindow.h in Headers */,
 				F0634FB81B6B4CEE0025C347 /* DZAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F239632383C46E006C929E /* UIApplication+KeyWindow.m in Sources */,
 				F0634FB71B6B4CEA0025C347 /* DZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

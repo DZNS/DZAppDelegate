@@ -11,6 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <DZAppDelegate/UIApplication+KeyWindow.h>
 
 @protocol DZAppDelegateProtocol <NSObject>
 
