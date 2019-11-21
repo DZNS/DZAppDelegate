@@ -15,3 +15,4 @@ FOUNDATION_EXPORT const unsigned char DZAppdelegateVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <DZAppdelegate/PublicHeader.h>
 
 #import <DZAppdelegate/DZAppDelegate.h>
+#import <DZAppdelegate/UIApplication+KeyWindow.h>
